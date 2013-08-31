@@ -14,6 +14,9 @@ class QuickFileOpenCommand(sublime_plugin.WindowCommand):
             sublime.error_message('The \'files\' setting must be a list')
 
     def on_done(self, selected):
+        if selected == -1:
+            return
+
         settings = sublime.load_settings('QuickFileOpen.sublime-settings')
         files = settings.get('files')
         fileName = files[selected]
