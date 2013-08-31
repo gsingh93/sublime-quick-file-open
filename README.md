@@ -1,7 +1,7 @@
 Quick File Open
 ===============
 
-This is a Sublime Text 3 plugin for quickly opening files. Sublime Text offers
+This is a Sublime Text 2/3 plugin for quickly opening files. Sublime Text offers
 the ability to quickly switch between workspaces, but there is no way to quickly
 open a set of "Favorite" files. This plugin allows you to specify this set of
 "Favorite" files in the QuickFileOpen.sublime-settings file. The files can then
